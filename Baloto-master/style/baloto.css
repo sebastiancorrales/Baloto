@@ -1,0 +1,78 @@
+body{
+    background-color: #004894 ;
+}
+main section {
+    margin: 0px auto;
+    
+}
+
+main section.bg-baloto {
+    background: url(../resources/bg-baloto.png) no-repeat center;
+    width     : 1366px;
+    height    : 768px;
+}
+
+main section.hide {
+    display: none;
+}
+
+
+main section.bg-baloto button.btn-play-init {
+    background: url(../resources/btn-play.png) no-repeat center;
+    position  : relative;
+    width     : 149px;
+    height    : 55px;
+    border    : none;
+    left      : 600px;
+    top       : 450px;
+}
+
+
+main section.bg-baloto-play button.btn-play {
+    background: url(../resources/btn-play.png) no-repeat center;
+    position  : relative;
+    width     : 149px;
+    height    : 55px;
+    border    : none;
+    right     : 350px;
+    top       : 600px;
+}
+
+main section.bg-baloto button.btn-play-init:hover,
+main section.bg-baloto-play button.btn-play:hover {
+    background: url(../resources/btn-play-hover.png) no-repeat center;
+    cursor    : pointer;
+}
+main section.bg-baloto-play div.balota {
+    position       : relative;
+    width          : 150px;
+    height         : 150px;
+    display        : inline-block;
+    left           : 213px;
+    text-decoration: underline;
+}
+main section.bg-baloto-play div.hide{
+    display: none;
+}
+main section.bg-baloto-play {
+    background: url(../resources/bg-baloto-play.png) no-repeat center;
+    width     : 1366px;
+    height    : 768px;
+}
+
+main section.bg-baloto-play div.balota p {
+    position   : relative;
+    left       : 50px;
+    top        : 0px;
+    font-size  : 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color      : black;
+}
+
+main section.bg-baloto-play div.balota-juego {
+    background: url(../resources/balota.png) no-repeat center;
+}
+
+main section.bg-baloto-play div.super-balota {
+    background: url(../resources/super-balota.png) no-repeat center;
+}
